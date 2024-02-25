@@ -1,6 +1,8 @@
-import { Section, Container, Heading, Profile, Statistics } from "components";
+import { Section, Container, Heading, Profile, Statistics, FriendList } from "components";
 import user from 'data/user.json';
 import data from 'data/data.json';
+import friends from 'data/friends.json';
+
 
 export const App = () => {
   return (
@@ -22,7 +24,11 @@ export const App = () => {
         <Statistics title="Upload stats" stats={data} />
       </Section>
         
-      
+      <Section>
+        <Heading>Friends list</Heading>
+        <FriendList friends={friends} />
+      </Section>
+
     </Container>
   );
 };

@@ -9,7 +9,6 @@ export const Card = styled.div`
     box-shadow: 0px 0px 10px 2px rgba(120, 120, 120, 0.75);
     width: 400px;
     border-radius: 8px; 
-    margin: 50px auto;
     padding-bottom: 40px;
     gap: 28px;
 `

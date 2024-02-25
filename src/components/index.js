@@ -1,6 +1,6 @@
 export * from 'components/App/App';
 export * from 'components/Profile/Profile.jsx';
-
+export * from 'components/Statistics/Statistics.jsx';
 
 // styled
 export * from 'components/Section/Section.styled.jsx';

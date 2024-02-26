@@ -1,7 +1,8 @@
-import { Section, Container, Heading, Profile, Statistics, FriendList } from "components";
+import { Section, Container, Heading, Profile, Statistics, FriendList, TransactionHistory} from "components";
 import user from 'data/user.json';
 import data from 'data/data.json';
 import friends from 'data/friends.json';
+import transactions from 'data/transactions.json';
 
 
 export const App = () => {
@@ -28,6 +29,11 @@ export const App = () => {
         <Heading>Friends list</Heading>
         <FriendList friends={friends} />
       </Section>
+
+      <Section>
+        <Heading>Transaction history</Heading>
+        <TransactionHistory items={transactions} />
+      </Section> 
 
     </Container>
   );

@@ -72,6 +72,7 @@ export const UserLocation = styled.p`
 export const StatsList = styled.ul`
     display: flex;
     font-size: 18px;
+    margin-bottom: 40px;
     gap: 16px;
 `
 export const StatsItem = styled.li`
